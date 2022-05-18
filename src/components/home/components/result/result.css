@@ -1,0 +1,22 @@
+.output-card {
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.output-card h2 {
+    transform: translateY(-2px);
+    text-align: center;
+    margin: auto 10px;
+    font-size: 2vh;
+}
+
+.result-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
