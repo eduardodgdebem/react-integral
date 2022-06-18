@@ -1,13 +1,13 @@
 import "./App.css";
 import { GeistProvider, CssBaseline } from "@geist-ui/core";
-import Home from "./components/home";
+import IntegralComponent from "./components/integral/IntegralComponent";
 
 function App() {
   return (
     <GeistProvider>
       <CssBaseline />
       <div className="App">
-        <Home></Home>
+        <IntegralComponent></IntegralComponent>
       </div>
     </GeistProvider>
   );

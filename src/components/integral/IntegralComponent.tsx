@@ -1,10 +1,10 @@
 import { useState } from "react";
-import "./home.css";
-import Result from "./components/result";
-import IntegralInput from "./components/IntegralInput";
-import MaiNav from "./components/mainNav";
+import "./IntegralComponent.css";
+import Result from "./components/result/Result";
+import IntegralInput from "./components/IntegralInput/IntegralInput";
+import MaiNav from "./components/mainNav/MainNav";
 
-const Home = () => {
+const Integral = () => {
   const [inA, setInA] = useState(0);
   const [inB, setInB] = useState(0);
   const [func, setFunc] = useState("");
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div className="main-container">
-        {/* <MaiNav></MaiNav> */}
+        <MaiNav></MaiNav>
         <IntegralInput
           setInA={setInA}
           setInB={setInB}
@@ -26,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Integral;

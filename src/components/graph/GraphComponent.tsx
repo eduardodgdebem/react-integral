@@ -12,13 +12,11 @@ function plugIn(x: any, equation: any) {
 
 const generateOption = (data: any) => {
   const { inA, inB, func } = data;
-  console.log(inA, inB, func);
   let interval: Number[] = [];
   for (let i = inA; i <= inB; i++) {
     interval = [...interval, i];
   }
   const results = interval.map((x: any) => plugIn(x, func));
-  console.log(interval, results);
   return {
     tooltip: {
       trigger: "axis",

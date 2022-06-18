@@ -1,4 +1,4 @@
-const Integral = (props: any) => {
+const IntegralHelper = (props: any) => {
   const { inA, inB, func } = props;
   return <p>{integrate(inA, inB, func, 1)}</p>;
 };
@@ -29,4 +29,4 @@ String.prototype.replaceAll = function (find: any, replace: any) {
   );
 };
 
-export default Integral;
+export default IntegralHelper;

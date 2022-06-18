@@ -1,5 +1,5 @@
-import Integral from "../../../../helpers/integral";
-import Graph from "../../../graph";
+import IntegralHelper from '../../../../helpers/integral/IntegralHelper';
+import Graph from '../../../graph/GraphComponent';
 import './result.css';
 
 const Result = (props: any) => {
@@ -9,7 +9,7 @@ const Result = (props: any) => {
     <div className="output-card">
       <div className="result-number">
         <h2>Resultado (area): </h2>
-        <Integral inA={inA} inB={inB} func={func}></Integral>
+        <IntegralHelper inA={inA} inB={inB} func={func}></IntegralHelper>
       </div>
       <div>
         <h2>Gráfico</h2>

@@ -4,7 +4,7 @@ const MaiNav = () => {
     return <>
         <nav>
             <div>
-                <h1>Integral</h1>
+                <h1>Cáltegral</h1>
             </div>
         </nav>
     </>
