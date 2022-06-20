@@ -47,6 +47,7 @@ const IntegralInput = (props: any) => {
           value={func}
           onInput={(e: any) => setFunc(e.target.value)}
           disabled={showResult}
+          placeholder="EX:3*x*x+5*x"
         />
       </div>
 
